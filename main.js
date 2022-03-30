@@ -8,6 +8,6 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
   return res.status(200).send("Testing Node.js Deployment on Heroku....")
 })
